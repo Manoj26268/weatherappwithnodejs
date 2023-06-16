@@ -1,6 +1,7 @@
 const express = require("express");
 const https = require("https");
 const bodyParser = require("body-parser");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(bodyParser.urlencoded({extended:true}));
@@ -48,6 +49,6 @@ app.post("/",function(req,res){
 })
 
 
-app.listen(3000,function(){
-    console.log("server started at 3000");
+app.listen(PORT,function(){
+    console.log("server started at ${PORT}");
 })
