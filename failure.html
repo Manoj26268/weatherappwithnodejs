@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .section {
+          height: 300px; /* Adjust the height as needed */
+          border: 1px solid #ccc;
+          padding: 20px;
+          background-color: antiquewhite;
+        }
+        .section-2{
+            border: 0px;
+            background-color:white;
+            margin-bottom: 0;
+        }
+      </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class=" section">
+            <!-- First container content -->
+            <h1 class="display-4">Uh oh!</h1>
+        <p class="lead">There was a problem in getting the weather details .Please try again by entering correct city name or contact developer!</p>
+        <form action="/failure" method ="post">
+             <button class="btn btn-lg btn-warning" type="submit">Try Again</button>
+        </form>
+          </div>
+          <div class=" section section-2">
+            <!-- Second container content -->
+          </div>
+        </div>
+      </div>
+    <!-- <div class="jumbotron jumbotron-fluid">
+       <div class="container">
+        <div class="container-fluid">
+            
+          </div>
+       </div>
+    </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> 
+</body>
+</html>

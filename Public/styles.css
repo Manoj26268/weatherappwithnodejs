@@ -25,6 +25,11 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .section {
+    height: 300px; /* Adjust the height as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
   
   button {
     margin: 0.5em;
@@ -70,17 +75,4 @@ body {
     margin-left: 8px;
   }
   
-  .weather.loading {
-    visibility: hidden;
-    max-height: 20px;
-    position: relative;
-  }
   
-  .weather.loading:after {
-    visibility: visible;
-    content: "Loading...";
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 20px;
-  }
