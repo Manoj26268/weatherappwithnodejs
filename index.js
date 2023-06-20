@@ -11,7 +11,7 @@ const app = express();
       let humidity = "30";
       let  speed  = "5";
 app.set('view engine','ejs');
-app.use(express.static('public'));
+app.use(express.static('Public'));
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/", function(req,res){
